@@ -8,7 +8,7 @@ const {{name_pc}} = () => (
 {{else}}
 class {{name_pc}} extends Component {
   render() {
-    return <div className={styles.{{name_cc}} }>{{name_pc}}</div>;
+    return <div className={styles.{{name_cc}}}>{{name_pc}}</div>;
   }
 }
 {{/if}}
